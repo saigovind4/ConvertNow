@@ -137,6 +137,8 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="CommonUtils\" />
+    <Folder Include="Model\" />
+    <Folder Include="Conversions\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -154,6 +156,9 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="CommonUtils\CommonUtils.cs" />
+    <Compile Include="Model\Units.cs" />
+    <Compile Include="Conversions\AbstractCalculator.cs" />
+    <Compile Include="Conversions\Angle.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\.DS_Store" />
