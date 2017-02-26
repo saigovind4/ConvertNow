@@ -100,9 +100,43 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\.DS_Store" />
+    <ImageAsset Include="Resources\Assets.xcassets\0.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\0.imageset\temperature_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\1.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\1.imageset\speed_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\10.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\10.imageset\electric_current_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\11.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\11.imageset\energy_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\12.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\12.imageset\force_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\13.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\13.imageset\power_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\14.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\14.imageset\time_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\15.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\15.imageset\compass_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\2.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\2.imageset\length_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\3.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\3.imageset\area_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\4.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\4.imageset\weight_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\5.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\5.imageset\volume_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\6.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\6.imageset\pressure_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\7.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\7.imageset\fuel_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\8.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\8.imageset\angle_active.png" />
+    <ImageAsset Include="Resources\Assets.xcassets\9.imageset\Contents.json" />
+    <ImageAsset Include="Resources\Assets.xcassets\9.imageset\bytes_active.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="CommonUtils\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -119,6 +153,10 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="CommonUtils\CommonUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\.DS_Store" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

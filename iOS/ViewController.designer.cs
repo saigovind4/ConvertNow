@@ -1,9 +1,11 @@
-﻿//		
-// This file has been generated automatically by MonoDevelop to store outlets and		
-// actions made in the Xcode designer. If it is removed, they will be lost.		
-// Manual changes to this file may not be handled correctly.		
-//		
+﻿// WARNING
+//
+// This file has been generated automatically by Xamarin Studio to store outlets and
+// actions made in the UI designer. If it is removed, they will be lost.
+// Manual changes to this file may not be handled correctly.
+//
 using Foundation;
+using System.CodeDom.Compiler;
 
 namespace ConvertNow.iOS
 {
@@ -11,14 +13,23 @@ namespace ConvertNow.iOS
 	partial class ViewController
 	{
 		[Outlet]
-		UIKit.UIButton Button { get; set; }
+		UIKit.UIScrollView scrollView { get; set; }
+
+		[Outlet]
+		UIKit.UILabel titleLabel { get; set; }
 
 		void ReleaseDesignerOutlets()
 		{
-			if (Button != null)
+			if (titleLabel != null)
 			{
-				Button.Dispose();
-				Button = null;
+				titleLabel.Dispose();
+				titleLabel = null;
+			}
+
+			if (scrollView != null)
+			{
+				scrollView.Dispose();
+				scrollView = null;
 			}
 		}
 	}
