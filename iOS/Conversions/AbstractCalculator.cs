@@ -1,10 +1,9 @@
-﻿using UIKit;
-using Foundation;
-using System;
+﻿using System.Collections.Generic;
+
 namespace ConvertNow.iOS
 {
 	public interface AbstractCalculator
 	{
-		Units[] performCalculations(Object obj,Units[] unitsList);
+		List<Units> performCalculations(object obj,List<Units> unitsList);
 	}
 }

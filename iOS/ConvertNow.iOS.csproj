@@ -29,7 +29,7 @@
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <MtouchTlsProvider>Default</MtouchTlsProvider>
     <PlatformTarget>x86</PlatformTarget>
-    <MtouchSdkVersion>10.2</MtouchSdkVersion>
+    <MtouchSdkVersion>10.0</MtouchSdkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>pdbonly</DebugType>
@@ -159,6 +159,15 @@
     <Compile Include="Model\Units.cs" />
     <Compile Include="Conversions\AbstractCalculator.cs" />
     <Compile Include="Conversions\Angle.cs" />
+    <Compile Include="Conversions\Area.cs" />
+    <Compile Include="Conversions\Bytes.cs" />
+    <Compile Include="Conversions\ElectricCurrent.cs" />
+    <Compile Include="Conversions\Energy.cs" />
+    <Compile Include="Conversions\Force.cs" />
+    <Compile Include="Conversions\Fuel.cs" />
+    <Compile Include="Conversions\Length.cs" />
+    <Compile Include="Conversions\Power.cs" />
+    <Compile Include="Conversions\Pressure.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\.DS_Store" />

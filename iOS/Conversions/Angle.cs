@@ -2,14 +2,13 @@
 
 namespace ConvertNow.iOS
 {
-	public class Angle
+	public class Angle : AbstractCalculator
 	{
 		public List<double> resultList { get; set; }
 		public List<Units>  finalresultList { get; set; }
 
 		private string inputString = "";
 		private double inputValue;
-
 		internal double Arcminute, Arcsecond, Circle, Degree, Gon, Grad, MilNato, milSovietUnion, milSweden, octant, quadrant, radian, revolution, sextant, sign, turn;
 
 		public Angle(string name)
@@ -92,7 +91,8 @@ namespace ConvertNow.iOS
 			return returnValue;
 		}
 
-		 List<Units> performLogic(object obj,List<Units> unitsList)
+
+		 public List<Units> performCalculations(object obj,List<Units> unitsList)
 		{
 			var value = (int)obj;
 			if (inputString != "")
