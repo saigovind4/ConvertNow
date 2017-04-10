@@ -168,6 +168,10 @@
     <Compile Include="Conversions\Length.cs" />
     <Compile Include="Conversions\Power.cs" />
     <Compile Include="Conversions\Pressure.cs" />
+    <Compile Include="CollectionViewCell.cs" />
+    <Compile Include="CollectionViewCell.designer.cs">
+      <DependentUpon>CollectionViewCell.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\.DS_Store" />
